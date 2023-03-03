@@ -1,0 +1,66 @@
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.container__header1 {
+  width: 88%;
+}
+
+.container__header2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8.5%;
+  border-bottom: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    margin-right: 12px;
+  }
+
+  h4 {
+    color: #9f9f9f;
+  }
+
+  span {
+    color: #f71963;
+  }
+}
+
+.pesquisaProduto {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.input_container {
+  width: 51%;
+  height: 48px;
+  border-radius: 10px;
+  background: #f7f5f2;
+  display: flex;
+  align-items: center;
+
+  input{
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    border: unset;
+    background: transparent;
+    padding: 14px 0 14px 24px;
+    box-sizing: border-box;
+  }
+
+  img{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+  }
+}
