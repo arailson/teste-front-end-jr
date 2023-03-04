@@ -7,6 +7,7 @@ import userCircle from "../../assets/UserCircle.svg";
 import shoppingCart from "../../assets/ShoppingCart.svg";
 import vtexLogo from "../../assets/vtexLogo.svg";
 import lupa from "../../assets/MagnifyingGlass.svg";
+import coroa from "../../assets/Coroa.svg";
 import styles from "./styles.module.scss";
 
 const Header = () => {
@@ -39,11 +40,29 @@ const Header = () => {
             <input type="text" placeholder="O que você está procurando?" />
             <img src={lupa} alt="icone lupa" />
           </div>
-          <div>
+          <div className={styles.icons}>
             <img src={caixaComSeta} alt="icon caixa com seta" />
             <img src={coracao} alt="icon coração" />
             <img src={userCircle} alt="icon userCircle" />
             <img src={shoppingCart} alt="icon shoppingCart" />
+          </div>
+        </div>
+        <div className={styles.buttons_page}>
+          <h3>Todas categorias</h3>
+          <h3>Supermercado</h3>
+          <h3>Livros</h3>
+          <h3>Moda</h3>
+          <h3>Lançamentos</h3>
+          <h3>
+            <span>Ofertas do dia</span>
+          </h3>
+          <div style={{ display: "flex" }}>
+            <img
+              style={{ marginRight: "13.5px" }}
+              src={coroa}
+              alt="icon coroa"
+            />
+            <h3>Assinatura</h3>
           </div>
         </div>
       </div>

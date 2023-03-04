@@ -38,7 +38,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .input_container {
@@ -49,18 +48,45 @@
   display: flex;
   align-items: center;
 
-  input{
+  input {
     height: -webkit-fill-available;
     width: -webkit-fill-available;
     border: unset;
     background: transparent;
     padding: 14px 0 14px 24px;
     box-sizing: border-box;
+    outline: none;
   }
 
-  img{
+  img {
     width: 28px;
     height: 28px;
     margin-right: 10px;
+  }
+}
+
+.icons {
+  height: 48px;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 37px;
+  }
+}
+
+.buttons_page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 8px 16px rgba(57, 48, 19, 0.12);
+
+  h3 {
+    font-weight: 600;
+    color: #9f9f9f;
+  }
+
+  span {
+    color: #f71963;
   }
 }
