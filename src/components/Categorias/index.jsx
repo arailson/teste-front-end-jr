@@ -12,26 +12,68 @@ const Categorias = () => {
   return (
     <div className={styles.body}>
       <div className={styles.container}>
-        <div>
-          <img src={monitorIcon} alt="icon monitor" />
+        <div className={styles.container_categoria__selecionada}>
+          <div>
+            <img src={monitorIcon} alt="icon monitor" />
+          </div>
+          <h4>
+            {" "}
+            <span>Tecnologia</span>
+          </h4>
         </div>
-        <div>
-          <img src={superMercadoIcon} alt="icon supermercado" />
+        <div className={styles.container_categoria}>
+          <div>
+            <img src={superMercadoIcon} alt="icon supermercado" />
+          </div>
+          <h4>
+            {" "}
+            <span>Supermercado</span>
+          </h4>
         </div>
-        <div>
-          <img src={whiskeyIcon} alt="icon bebidas" />
+        <div className={styles.container_categoria}>
+          <div>
+            <img src={whiskeyIcon} alt="icon bebidas" />
+          </div>
+          <h4>
+            {" "}
+            <span>Bebidas</span>
+          </h4>
         </div>
-        <div>
-          <img src={ferramentasIcon} alt="icon ferramentas" />
+        <div className={styles.container_categoria}>
+          <div>
+            <img src={ferramentasIcon} alt="icon ferramentas" />
+          </div>
+          <h4>
+            {" "}
+            <span>Ferramentas</span>
+          </h4>
         </div>
-        <div>
-          <img src={saudeIcon} alt="icon saude" />
+        <div className={styles.container_categoria}>
+          <div>
+            <img src={saudeIcon} alt="icon saude" />
+          </div>
+          <h4>
+            {" "}
+            <span>Saúde</span>
+          </h4>
         </div>
-        <div>
-          <img src={esportesIcon} alt="icon esporte" />
+        <div className={styles.container_categoria}>
+          <div>
+            <img src={esportesIcon} alt="icon esporte" />
+          </div>
+          <h4>
+            {" "}
+            <span>Esportes e Fitness</span>
+          </h4>
         </div>
-        <div>
-          <img src={modaIcon} alt="icon moda" />
+        <div className={styles.container_categoria}>
+          <div>
+            <img src={modaIcon} alt="icon moda" />
+          </div>
+          <h4>
+            {" "}
+            <span>Saúde</span>
+          </h4>
         </div>
       </div>
     </div>
