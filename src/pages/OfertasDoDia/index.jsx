@@ -11,11 +11,44 @@ const OfertasDoDia = () => {
         <img src={desconto} alt="desconto plano de fundo" />
         <div className={styles.banner_details}>
           <h2>Venha conhecer nossas promoções</h2>
-          <h2><span>50% Off nos produtos</span></h2>
+          <h2>
+            <span>50% Off nos produtos</span>
+          </h2>
           <button>Ver produto</button>
         </div>
       </div>
       <Categorias />
+      <div className={styles.container_produtos}>
+        <div className={styles.produtos_relacionados}>
+          <div className={styles.line}></div>
+          <h2>Produtos relacionados</h2>
+          <div className={styles.line}></div>
+        </div>
+      </div>
+      <div className={styles.body_categoria}>
+        <div className={styles.container_categoria__produtos}>
+          <div>
+            <h4>
+              <span>Celular</span>
+            </h4>
+          </div>
+          <div>
+            <h4>acessórios</h4>
+          </div>
+          <div>
+            <h4>tablets</h4>
+          </div>
+          <div>
+            <h4>NOTEBOOKS</h4>
+          </div>
+          <div>
+            <h4>TVs</h4>
+          </div>
+          <div>
+            <h4>Ver todos</h4>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
