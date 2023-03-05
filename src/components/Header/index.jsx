@@ -47,6 +47,7 @@ const Header = () => {
             <img src={shoppingCart} alt="icon shoppingCart" />
           </div>
         </div>
+        <div className={styles.line}></div>
         <div className={styles.buttons_page}>
           <h3>Todas categorias</h3>
           <h3>Supermercado</h3>

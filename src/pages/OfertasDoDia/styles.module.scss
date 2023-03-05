@@ -1,0 +1,33 @@
+.banner {
+  position: relative;
+}
+
+.banner_details {
+  position: absolute;
+  top: 49px;
+  left: 89px;
+  width: 57%;
+
+  h2 {
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 72px;
+    margin: unset;
+  }
+
+  span{
+    font-size: 36px;
+  }
+
+  button{
+    width: 227px;
+    height: 60px;
+    background: #F71963;
+    color: #ffffff;
+    border-radius: 5px; 
+    border: unset;
+    font-size: 18px;
+    margin-top: 35px;
+
+  }
+}

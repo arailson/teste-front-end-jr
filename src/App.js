@@ -1,9 +1,9 @@
-import Header from "./components/Header";
+import OfertasDoDia from "./pages/OfertasDoDia";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <OfertasDoDia />
     </div>
   );
 }
