@@ -1,4 +1,5 @@
 import desconto from "../../assets/Desconto50.svg";
+import Categorias from "../../components/Categorias";
 import Header from "../../components/Header";
 import styles from "./styles.module.scss";
 
@@ -14,6 +15,7 @@ const OfertasDoDia = () => {
           <button>Ver produto</button>
         </div>
       </div>
+      <Categorias />
     </div>
   );
 };

@@ -1,0 +1,26 @@
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+
+  div:first-child {
+    background-color: #ffffff;
+  }
+
+  div {
+    width: 10%;
+    height: 128px;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.13);
+  }
+}
