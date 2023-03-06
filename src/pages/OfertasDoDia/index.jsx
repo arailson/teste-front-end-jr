@@ -1,7 +1,9 @@
 import desconto from "../../assets/Desconto50.svg";
 import Categorias from "../../components/Categorias";
 import Header from "../../components/Header";
+import Marcas from "../../components/Marcas";
 import Pareceiros from "../../components/Parceiros";
+import ProdutosRelacionados from "../../components/ProdutosRelacionados";
 import Vitrine from "../../components/Vitrine";
 import styles from "./styles.module.scss";
 
@@ -53,6 +55,12 @@ const OfertasDoDia = () => {
       </div>
       <Vitrine />
       <Pareceiros />
+      <ProdutosRelacionados />
+      <Vitrine />
+      <Pareceiros />
+      <Marcas />
+      <ProdutosRelacionados />
+      <Vitrine />
     </div>
   );
 };

@@ -1,0 +1,41 @@
+.body {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.produtos {
+  width: 88%;
+}
+
+.produtos_relacionados {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #f71963;
+    margin-right: 34px;
+    margin-left: 34px;
+  }
+}
+
+.line {
+  border: 1px solid #dedede;
+  width: 28%;
+}
+
+.verTodos{
+    text-align: center;
+    font-size: 15px;
+    color: #3F3F40;
+    margin-bottom: 32px;
+
+
+    h3{
+        margin: unset;
+    }
+}

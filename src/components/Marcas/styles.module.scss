@@ -1,0 +1,60 @@
+.body {
+  display: flex;
+  justify-content: center;
+  margin-top: 155px;
+}
+
+.container__marcas {
+  width: 88%;
+}
+
+.text__marcas {
+  text-align: center;
+  font-size: 30px;
+  color: #f71963;
+  margin-bottom: 60px;
+
+  h2 {
+    margin: unset;
+  }
+}
+
+.container__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__marcas {
+  width: 16.4%;
+  height: 211px;
+  border-radius: 50%;
+  box-shadow: 0px 7px 20px rgb(0 0 0 / 13%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ultimaInfo{
+  position: relative;
+  width: 16.4%;
+  height: 211px;
+  border-radius: 50%;
+  box-shadow: 0px 7px 20px rgb(0 0 0 / 13%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  position: absolute;
+  background: white;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 75px;
+  right: 7px;
+}
