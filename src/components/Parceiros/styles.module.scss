@@ -1,0 +1,53 @@
+.body {
+  margin-top: 78px;
+  display: flex;
+  justify-content: center;
+}
+
+.container_planoFundo {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.parceiro {
+  position: relative;
+
+  img {
+    border-radius: 20px;
+  }
+}
+
+.parceiro__detalhes {
+  position: absolute;
+  top: 121px;
+  left: 39px;
+  width: 196px;
+
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: unset;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: unset;
+    margin-bottom: 32px;
+  }
+
+  button {
+    width: 131px;
+    height: 48px;
+    background-color: #f71963;
+    border: unset;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 16px;
+  }
+}
