@@ -1,5 +1,6 @@
 import desconto from "../../assets/Desconto50.svg";
 import Categorias from "../../components/Categorias";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Marcas from "../../components/Marcas";
 import Pareceiros from "../../components/Parceiros";
@@ -61,6 +62,7 @@ const OfertasDoDia = () => {
       <Marcas />
       <ProdutosRelacionados />
       <Vitrine />
+      <Footer />
     </div>
   );
 };
