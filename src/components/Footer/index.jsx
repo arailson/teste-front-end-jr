@@ -4,6 +4,13 @@ import youtube from "../../assets/Youtube.svg";
 import visa from "../../assets/Visa.svg";
 import elo from "../../assets/elo.svg";
 import alelo from "../../assets/alelo.svg";
+import dinners from "../../assets/dinners.svg";
+import ifood from "../../assets/ifood.svg";
+import mastercard from "../../assets/mastercard.svg";
+import pix from "../../assets/pix.svg";
+import american from "../../assets/amex.svg";
+import ticket from "../../assets/ticket.svg";
+import sodexo from "../../assets/sodexo.svg";
 import styles from "./styles.module.scss";
 
 const Footer = () => {
@@ -39,22 +46,37 @@ const Footer = () => {
               <img src={alelo} alt="alelo" />
             </div>
             <div className={styles.imagens__cards}>
-              <img src={visa} alt="visa" />
-              <img src={elo} alt="elo" />
-              <img src={alelo} alt="alelo" />
+              <img src={dinners} alt="diners" />
+              <img src={ifood} alt="ifood" />
+              <img src={mastercard} alt="mastercard" />
             </div>
             <div className={styles.imagens__cards}>
-              <img src={visa} alt="visa" />
-              <img src={elo} alt="elo" />
-              <img src={alelo} alt="alelo" />
+              <img src={pix} alt="pix" />
+              <img src={american} alt="amex" />
+              <img src={ticket} alt="ticket" />
             </div>
             <div className={styles.imagens__cards}>
-              <img src={visa} alt="visa" />
+              <img src={sodexo} alt="sodexo" />
             </div>
           </div>
         </div>
+
+        <div className={styles.cadastre}>
+          <h5>CADASTRE-SE E RECEBA NOSSAS</h5>
+          <h2>NOVIDADES E PROMOÇÕES</h2>
+          <div className={styles.paragrafo}>
+            <p>
+              Excepteur sint occaecat cudatat non ent, sunt in culpa qui officia
+              lorem ipsum
+            </p>
+          </div>
+          <div className={styles.button__ok}>
+            <input type="text"  placeholder="SEU E-MAIL"/>
+            <button>OK</button>
+
+          </div>
+        </div>
       </div>
-      <div></div>
     </div>
   );
 };
