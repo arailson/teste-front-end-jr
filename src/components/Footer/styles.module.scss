@@ -100,7 +100,7 @@
     border-radius: 4px;
     padding: 0px 0 0px 12px;
     outline: none;
-    margin-right: 12pxF
+    margin-right: 12px;
   }
 
   button{
@@ -110,5 +110,29 @@
     border-radius: 4px;
     border: unset;
     color: white;
+  }
+}
+
+.body2{
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #FFFFFF;
+  height: 70px;
+}
+
+.fim__footer{
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fim__div{
+  width: 54.5%;
+
+  p{
+    color: #FFFFFF;
+    font-size: 10px;
   }
 }

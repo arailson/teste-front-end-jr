@@ -3,10 +3,13 @@ import setaEsquerda from "../../assets/SetaEsquerda.svg";
 import setaDireita from "../../assets/SetaDireita.svg";
 import styles from "./styles.module.scss";
 import { vitrine } from "./vitrine";
+import Modal from "./Modal";
 
 const Vitrine = () => {
   const [produtosExibidos, setProdutosExibidos] = useState([]);
   const [indiceInicial, setIndiceInicial] = useState(0);
+  const [modalAberta, setModalAberta] = useState(false);
+  const [produtoSelecionado, setProdutoSelecionado] = useState(null);
 
   useEffect(() => {
     const novoArray = vitrine.products.slice(indiceInicial, indiceInicial + 4);
@@ -21,6 +24,11 @@ const Vitrine = () => {
     setIndiceInicial(novoIndiceInicial);
   };
 
+  const handleProdutoSelecionado = (produto) => {
+    setProdutoSelecionado(produto);
+    setModalAberta(true);
+  };
+
   return (
     <div className={styles.body}>
       <div className={styles.atualizar__produto}>
@@ -32,7 +40,11 @@ const Vitrine = () => {
       </div>
       <div className={styles.container_vitrine}>
         {produtosExibidos.map((product) => (
-          <div className={styles.vitrine_detalhes} key={product.productName}>
+          <div
+            onClick={() => handleProdutoSelecionado(product)}
+            className={styles.vitrine_detalhes}
+            key={product.productName}
+          >
             <img src={product.photo} alt="afsa" />
             <p>{product.productName}</p>
             <h3>R$ 30,90</h3>
@@ -60,6 +72,12 @@ const Vitrine = () => {
           alt="icon seta direita"
         />
       </div>
+      {modalAberta && produtoSelecionado && (
+        <Modal
+          produto={produtoSelecionado}
+          fecharModal={() => setModalAberta(false)}
+        />
+      )}
     </div>
   );
 };
